@@ -1,0 +1,14 @@
+.parent{
+    margin: 0 auto;
+    background-color: antiquewhite;
+    width: 1500px;
+    height: 300px;
+}
+.child{
+    position: relative;
+    top: 30px;
+    left: 30px;
+    background-color: aquamarine;
+    width: 700px;
+    height: 200px;
+}
