@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+}
+body{
+    margin-top: 1%;
+}
+
+/* Fonts start */
+.quicksand-font {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+  /* Fonts End */
+
+        /* Colors Start */
+        .orang{
+            color: #FEA301;
+        }
+        .sky-blue{
+            color: #01ACFD;
+        }
+        .aqua-blue{
+            color: #05D4DF;
+        }
+        .purple{
+            color: #5D58EF;
+        }
+  
+        /* Colors End */
+        
+        /* Shared style start */
+        .primary-btn{
+            font-size: 1.6rem;
+            padding: 16px 60px;
+            color: white;
+            border: 0;
+            border-radius: 12px;
+        }
+        /* Shared style End */
+
+
+        .border{
+            border: 1px solid red;
+        }
+
+
+
+
+
+        /* Navigation bar start */
+.logo-container,
+.nav-center-container ul,
+nav
+{
+    display: flex;
+}
+header{
+    margin: 0 auto;
+    max-width: 1505px;
+}
+nav{
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-container{
+    align-items: center;
+}
+.logo-container >div{
+    display: flex;
+    align-items: center;
+}
+.logo-container img{
+    margin-right: 14px;
+   width: 100%;
+}
+.logo-text{
+    font-size: 2.6rem;
+    font-weight: bold;
+}
+.nav-center-container li{
+    padding-right:32px;
+    list-style: none;
+}
+.home-text, .about-text, .facilities-text, .admission-text{
+    font-size: 1.3rem;
+    font-weight: 500;
+    text-decoration: none;
+}
+.home-text{
+    font-weight: bold;
+}
+.contact-btn{
+    background-color: #FEA301;
+}
+.fa-solid{
+    display: none;
+}
+/* Navigation bar End */
+
+
+
+/* Banner Section Start */
+
+.banner-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1505px;
+}
+.banner-text-container{
+    
+    max-width: 832px;
+}
+.banner-title{
+    font-size: 4.6rem;
+    
+}
+.banner-subtitle{
+    margin: 31px 0;
+    color: black;
+    font-size: 1.6rem;
+}
+
+/* .banner-img-container{
+    width: 100%;
+} */
+.enroll-now-btn{
+    background-color: black;
+}
+/* .banner-img-container img{
+    width: 100%;
+} */
+/* Banner Section End */
+
+
+
+
+
+@media screen and (max-width:576px) {
+    /* Navigation Responsive Start */
+    nav{
+        
+        justify-content: space-between;
+    }
+    .logo-text{
+        display: none;
+    }
+    .nav-center-container{
+        display: none;
+    }
+    .contact-btn{
+        display: none;
+    }
+    .fa-solid{
+        font-size: 30px;
+        display: inline;
+    }
+    nav{
+        margin: 0 2%;
+    }    
+    .logo-container img{
+        width: 90%;
+        margin-bottom: 12px;
+        margin-top: 5px;
+    }
+    /* Navigation Responsive End */
+    
+
+
+    /* Banner Responsive Start */
+    .banner-section{
+        flex-direction: column-reverse;
+    }
+    .banner-img-container{
+        display: flex;
+        justify-content: center;
+    }
+    .banner-img-container img{
+        width: 90%;
+    }
+    .banner-text-container{
+        text-align: center;
+    }
+    .banner-title{
+        font-size: 2.6rem;
+        margin-top: 20px;
+    }
+    /* Banner Responsive End */
+}
