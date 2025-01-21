@@ -5,6 +5,9 @@ body{
     margin-top: 1%;
 }
 
+marquee{
+    color: orange;
+}
 /* Fonts start */
 .quicksand-font {
     font-family: "Quicksand", serif;
@@ -374,8 +377,8 @@ nav{
 /* Footer Section Start */
 footer{
     background-color: #01ACFD;
+    padding-bottom: 200px;
     padding-top: 160px;
-    padding-bottom: 226px;
 }
 .footer-section{
     margin: 0 auto;
