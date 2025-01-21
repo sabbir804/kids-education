@@ -104,8 +104,17 @@ nav{
 .home-text{
     font-weight: bold;
 }
+.home-text:hover, .about-text:hover, .facilities-text:hover, .admission-text:hover{
+    color: green;
+}
 .contact-btn{
+    border: 2px solid #FEA301;
     background-color: #FEA301;
+}
+.contact-btn:hover{
+    border: 2px solid #FEA301;
+    background-color: white;
+    color: #FEA301;
 }
 .fa-bars{
     display: none;
@@ -137,15 +146,14 @@ nav{
     font-size: 1.6rem;
 }
 
-/* .banner-img-container{
-    width: 100%;
-} */
+
 .enroll-now-btn{
     background-color: black;
 }
-/* .banner-img-container img{
-    width: 100%;
-} */
+.enroll-now-btn:hover{
+    background-color: rgba(0, 0, 0, 0.692);
+}
+
 /* Banner Section End */
 
 
@@ -174,20 +182,24 @@ nav{
     padding-bottom: 68px;
 }
 .linear1{
-    background-image: linear-gradient(#DEF5FF, white, white, white, white);
+    background-image: linear-gradient(#DEF5FF 1%, white , white 99%, white 99% );
     border: 1px solid #DEF5FF;
 }
 .linear2{
-    background-image: linear-gradient(#FFF4DC, white, white, white, white);
+    background-image: linear-gradient(#FFF4DC 1%,  white , white 99%, white 99%);
     border: 1px solid #FFF4DC;
 }
 .linear3{
-    background-image: linear-gradient(#F2E8FF, white, white, white, white);
+    background-image: linear-gradient(#F2E8FF 1%, white , white 99%, white);
     border: 1px solid #F2E8FF;
 }
 .curriculum-card-img2, .curriculum-card-img3{
     margin-top: 67px;
     margin-bottom: 42px;
+}
+.curriculum-card:hover{
+    transform: scale(1.1);
+    transition: 1ms;
 }
 .curriculum-card-img{
     margin-top: 59px;
@@ -211,6 +223,7 @@ nav{
 }
 .curriculum-card-subtitle{
     margin: 43px 0;
+    padding: 10px;
 }
 
 
@@ -227,6 +240,10 @@ nav{
     color: white;
     background-color: #FEA301;
 }
+.fa-greater-than:hover{
+    color: #FEA301;
+    background-color: white;
+}
 .fa-less-than{
     margin-right: 10px;
     font-size: 2rem;
@@ -234,6 +251,10 @@ nav{
     border-radius: 50%;
     color: white;
     background-color: #FEA301;
+}
+.fa-less-than:hover{
+    color: #FEA301;
+    background-color: white;
 }
 /* Curriculum Section End */
 
@@ -279,6 +300,9 @@ nav{
     font-size: 1.2rem;
     font-weight: 500px;
     padding: 19px 25px;
+}
+.stories-bigcard-relative:hover{
+    background-color: #10b7c0;
 }
  .stories-smallcard-relative1{
     position: relative;
